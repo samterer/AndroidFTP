@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, activitiMain!</string>
+    <string name="app_name">Access Remote Server Logs</string>
+     <string name="pref_title">Preferences</string>
+</resources>

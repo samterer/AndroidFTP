@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="D:/jars/commons-net-3.0.1-bin/commons-net-3.0.1/commons-net-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/jars/commons-io-2.0.1-bin/commons-io-2.0.1/commons-io-2.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

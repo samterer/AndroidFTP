@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Login Settings">
+		<EditTextPreference android:key="uname"
+			android:title="Username" android:summary="FTP login username" />
+		<EditTextPreference android:key="pass"
+			android:title="Password"  android:summary="FTP access password" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="User Settings">
+		<EditTextPreference android:key="etServer"
+			android:title="Server IP" android:summary="Provide IP address of the hosting server" />
+		<EditTextPreference android:key="port"
+			android:title="Port" android:defaultValue="21" android:summary="FTP access port" />
+		<EditTextPreference android:key="path"
+			android:title="File path" android:defaultValue=""
+			android:summary="Enter the log file default directory path." />
+		<EditTextPreference android:key="logfname"
+			android:title="Log file" android:defaultValue="error_log"
+			android:summary="Log file name to be accessed" />
+	</PreferenceCategory>
+</PreferenceScreen>
